@@ -21,7 +21,7 @@ async function predictClassification(model, image) {
         }
         
         if(label === 'Non-cancer') {
-            suggestion = "Segera konsultasi dengan dokter terdekat jika ukuran semakin membesar dengan cepat, mudah luka atau berdarah."
+            suggestion = "Anda sehat!"
         }
  
         return { label, suggestion };
